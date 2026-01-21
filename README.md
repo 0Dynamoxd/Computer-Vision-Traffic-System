@@ -3,7 +3,6 @@
 ![Estado](https://img.shields.io/badge/Status-Finalizado-success)
 ![Python](https://img.shields.io/badge/Python-3.x-blue)
 ![Hardware](https://img.shields.io/badge/Hardware-ESP32S3%20%7C%20Arduino-red)
-![Security](https://img.shields.io/badge/Security-HTTPS%20%7C%20TLS1.2-lock)
 
 ##  Descripción del Proyecto
 
@@ -46,12 +45,11 @@ El sistema fue validado en un **prototipo a escala (Maqueta)** utilizando vehíc
 
 ```text
 ├──  arduino_code
-│   ├── 📄 Traffic_Lights_Controller.ino   # Lógica de semáforos (Física)
-│   └── 📄 XIAO_S3_HTTPS_Cam.ino           # Firmware de cámara segura
+│   ├──  Traffic_Lights_Controller.ino   # Lógica de semáforos (Física)
+│   └──  XIAO_S3_HTTPS_Cam.ino           # Firmware de cámara segura
 ├──  models
 │   └──  best.pt                         # Modelo YOLO entrenado (Weights)
 ├──  src
 │   ├──  main.py                         # Código principal (Dashboard)
-│   └── 🐍 https_test.py                   # Script de prueba de conexión segura
-├── 📄 requirements.txt                    # Librerías necesarias
-└── 📄 README.md                           # Documentación
+├──  requirements.txt                    # Librerías necesarias
+└──  README.md                           # Documentación
